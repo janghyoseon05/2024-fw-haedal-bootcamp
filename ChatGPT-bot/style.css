@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+body {
+    background-color: rgb(44, 44, 77);
+}
+
+.container {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    color:azure;
+    border-bottom: 1px solid azure;
+    height : 45px;
+}
+
+.header h3 { 
+    font-size : 17px;
+    font-weight : 600;
+}
+
+.info {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info a {
+    color:rgb(247, 234, 135);
+    font-size:30px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.info a:hover {
+    color :rgb(212, 193, 48)
+}
+
+.input-container {
+    display : block;
+    align-items : center;
+    justify-content: center;
+    font-weight : 600;
+    padding : auto;
+    
+
+}
+
+.input-container button {
+    background-color: rgb(247, 234, 135);
+    border-radius: 20%;
+}
